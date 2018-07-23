@@ -1,0 +1,20 @@
+corpus_xiada_2_3:
+
+	- Versión inicial que inclúe 10.302 oracións e 304.116 elementos
+	gramaticais analizados (sen contar as do núcleo).
+
+corpus_xiada_2_4:
+
+	- Versión con 15.122 oracións e 426.051 elementos gramaticais
+	analizados (sen contar o núcleo).
+	- Inclusión dunha versión da análise das oracións en formato xml.
+
+corpus_xiada_2_5:
+
+	- Versión con 24.534 oracións e 594.993 elementos gramaticais
+	analizados (sen contar o núcleo).
+
+corpus_xiada_2_6:
+
+	- Versión con 33.029 oracións e 741.833 elementos gramaticais
+	analizados (sen contar o núcleo).

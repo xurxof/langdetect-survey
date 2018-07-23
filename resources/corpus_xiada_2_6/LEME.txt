@@ -1,0 +1,61 @@
+Corpus de XIADA: Etiquetador/Lematizador do Galego Actual
+(http://corpus.cirp.es/xiada)
+
+Copyright 2015 Guillermo Rojo, Marisol López Martínez,
+Eva Domínguez Noya, Fco. Mario Barcala Rodríguez,
+Centro Ramón Piñeiro para a Investigación en Humanidades.
+
+Este corpus distribúese baixo a licenza Lesser General Public License
+For Linguistic Resources. Véxase o arquivo COPYING para máis
+detalles.
+
+O corpus consta de catro bloques:
+
+- O primeiro está formado polas oracións de noticias xornalísticas
+completas do ámbito temático da economía, extraídas aleatoriamente do
+CORGA (corpus_economia_prensa).
+
+- O segundo bloque está constituído polas oracións de noticias
+xornalísticas completas de ámbito temático diverso incluídas nos
+xornais A Nosa Terra, De Luns a Venres e Galicia Hoxe
+(corpus_xeral_prensa).
+
+- O terceiro está integrado por oracións, seleccionadas aleatoriamente
+do CORGA, incluídas en coleccións de relatos curtos (corpus_relato_curto).
+
+- O cuarto e último apartado está formado por oracións de diferentes
+xéneros e procedencia, cuxo obxectivo é incluír todas as etiquetas
+posibles do etiquetario de XIADA polo menos unha vez (nucleo).
+
+Cada un destes bloques está organizado en dous arquivos:
+
+1) _oracions.txt: inclúe as oracións do corpus sen analizar, unha por
+cada liña. Algúns fragmentos de texto poden estar englobados entre as
+marcas <distinto tipo="outra_lingua"> e </distinto>, indicando que eses
+fragmentos están nunha lingua diferente do galego e, polo tanto, non
+están analizados no corpus. Tamén poden aparecer as marcas <inicio_poema />,
+<novo_verso /> e <fin_poema /> delimitando fragmentos de texto que están
+en verso.
+
+2) _etiquetado.txt: inclúe as oracións analizadas. Cada unidade de análise
+está nunha liña independente co formato:
+
+palabra\tetiqueta\tlema\n
+
+Onde palabra se corresponde co elemento gramatical do texto que se analiza
+(e non con forma gráfica), etiqueta recolle a etiqueta morfosintáctica
+correspondente á unidade (véxase http://corpus.cirp.es/xiada/etiquetario.html
+para máis detalles sobre o seu significado) e lema indica o lema do elemento
+analizado.
+
+Unha liña en branco separa a análise das distintas oracións.
+
+Adicionalmente, para os tres primeiros bloques (corpus_economia_prensa,
+corpus_xeral_prensa e corpus_relato_curto) inclúese tamén un arquivo coa
+análise en xml (_etiquetado.xml) no que, ademais de incluírmos a análise
+dos elementos gramaticais en formato xml, facemos referencia á unidade de 
+análise á que pertencen.
+
+Para calquera información adicional sobre este corpus pode poñerse en
+contacto connosco a través de corga@cirp.es.
+
